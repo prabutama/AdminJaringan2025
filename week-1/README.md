@@ -67,7 +67,7 @@ Saat kita menggunakan sebuah komputer dalam jaringan seperti ketika melakukan pe
 
 - Transport: Layer Transport mengatur komunikasi antar aplikasi di berbagai perangkat. Peran utama lapisan ini adalah memastikan data dikirim dengan aman dan membagi data menjadi bagian-bagian kecil atau yang disebut sebagai segmentation dan reassembly.
 
-### 2. Rangkuman Tahapan Komunikasi Menggunakan TCP
+### 3. Rangkuman Tahapan Komunikasi Menggunakan TCP
 
 TCP adalah protokol untuk mengirim data dan pesan melalui jaringan yang terjadi pada layer transport untuk menyediakan layanan yang andal dan mempunyai mekanisme yang canggih untuk mengetahui serta memastikan data sampai ditujuan dengan keadaan yang sama dengan ketika dikirim. Cara kerja protokol TCP adalah sebagai berikut:
 
