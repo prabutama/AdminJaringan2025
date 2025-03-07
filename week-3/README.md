@@ -26,15 +26,21 @@ NTP Client (Network Time Protocol Client) adalah perangkat atau perangkat lunak 
 Debian 12 mempunyai ntp client default yang sudah terinstall yaitu timesync. Systemd-timesyncd adalah layanan sinkronisasi waktu sederhana yang terintegrasi dengan systemd. Berikut langkah konfigurasinya:
 
 1. Cek status timesyncd
+
    <img src="assets/timesyncd-status-debian.png" alt="asset">
+
    Pada bagian status masih menggunakan NTP Server dari debian
 
 2. Sesuiakan NTP server dengan NTP Server Indonesia yaitu: id.pool.ntp.org
+
    <img src="assets/timesync-conf.png" alt="asset">
 
 3. Restart layanan timesyncd dengan perintah `sudo systemctl restart systemd-timesyncd`
+
 4. Cek status timesyncd kembali
+
    <img src="assets/timesync-status-indo.png" alt="asset">
+
    Setelah restart layanan maka dibagian status sudah menggunakan NTP Server Indonesia.
 
 #### NTPSec
@@ -42,10 +48,15 @@ Debian 12 mempunyai ntp client default yang sudah terinstall yaitu timesync. Sys
 NTP Secure (NTPsec), yaitu versi NTP yang telah ditingkatkan keamanannya. NTPsec adalah versi NTP yang dirancang untuk mengatasi kerentanan keamanan dan meningkatkan stabilitas. Berikut langkah konfigurasinya
 
 1. Lakukan instalasi package NTPSec
+
    <img src="assets/ntp-install.png" alt="asset">
+
 2. Sesuaikan konfigurasi pool dengan NTP Server indonesia
+
    <img src="assets/ntp-conf.png" alt="asset">
+
 3. Periksa sinkronisasi
+
    <img src="assets/ntp-q.png" alt="asset">
 
 #### Instalasi dan Konfigurasi Samba
@@ -59,12 +70,15 @@ Samba adalah perangkat lunak open-source yang memungkinkan berbagi file dan prin
 #### Percobaan fully access
 
 1. Konfigurasi pada samba
+
    <img src="assets/samba-conf.png" alt="asset">
 
 2. Membuat sebuah file di direktori /home/share
+
    <img src="assets/samba-fully-mkdir.png" alt="asset">
 
 3. Percobaan akses dari Host
+
    <img src="assets/samba-fully-host-access.png" alt="asset">
 
 4. Percobaan akses di komputer lain
@@ -74,6 +88,7 @@ Samba adalah perangkat lunak open-source yang memungkinkan berbagi file dan prin
 #### Percobaan Limited Access
 
 1. Konfigurasi pada samba
+
    <img src="assets/samba-limited-conf.png" alt="asset">
 
 2. Membuat sebuah file untuk dibagikan di direktori /home/share01
@@ -100,6 +115,7 @@ Samba adalah perangkat lunak open-source yang memungkinkan berbagi file dan prin
 
  <img src="assets/samba-limited-other-access.png" alt="asset">
 <img src="assets/samba-limited-other-access-notepad.png" alt="asset">
+
 Pada saat mengakses maka akan diminta untuk memasukkan kredensial yang telah dikonfigurasi sebelumnya yaitu username debian dan password debian
 
 #### Percobaan akses lewat CLI
@@ -145,6 +161,7 @@ Software adalah sebuah alat yang ada pada sistem operasi debian yang dapat digun
 Discover merupakan package manager yang berbasis K Desktop Environment sehingga menyediakan antarmuka tampilan grafis (GUI) yang intuitif dan kaya fitur. KDE memungkinkan pengguna untuk berinteraksi dengan sistem operasi melalui elemen visual seperti jendela, ikon, menu, dan panel.
 
 <img src="assets/pm-discover.png" alt="asset">
+
 Dengan menggunakan ‘Discover’ memungkinkan pengguna untuk melakukan pencarian, instalasi, pembaruan dan menghapus paket yang ada pada debian. Selain itu pengguna juga dapat melakukan modifikasi repositori dengan menggunakan alat ini.
 
 #### Synaptic: Comprehensive Package Manager
