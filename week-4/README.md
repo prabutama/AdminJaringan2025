@@ -121,35 +121,47 @@ Di Linux, resolver biasanya diatur oleh glibc (GNU C Library) melalui file konfi
 DNS Server: 10.252.108.109
 
 1. Instalasi paket bind9
+   
    <img src="assets/practice/install.png" alt="asset">
 
-2. Konfigurasi bind9
+3. Konfigurasi bind9
+   
    <img src="assets/practice/named.conf.png" alt="asset">
 
-3. Menambahkan IP Internal
+5. Menambahkan IP Internal
+   
    <img src="assets/practice/ip.chechk.png" alt="asset">
+   
    <img src="assets/practice/internal.ip.png" alt="asset">
 
-4. Konfigurasi Internal Zones
+7. Konfigurasi Internal Zones
+   
    <img src="assets/practice/internal-zone.png" alt="asset">
 
-5. Konfigurasi Default Named
+9. Konfigurasi Default Named
+    
    <img src="assets/practice/default-named.png" alt="asset">
 
-6. Menambahkan konfigurasi domain kelompok
+11. Menambahkan konfigurasi domain kelompok
+    
    <img src="assets/practice/domain.kelompok.png" alt="asset">
 
-7. Membuat zone file untuk resolv server
+13. Membuat zone file untuk resolv server
+    
    <img src="assets/practice/zone.file.configuration.png" alt="asset">
 
-8. Restart Named Service
+15. Restart Named Service
+    
    <img src="assets/practice/restart.named.service.png" alt="asset">
 
-9. Menambahkan Konfigurasi Resolv
+17. Menambahkan Konfigurasi Resolv
+    
    <img src="assets/practice/resolv.conf.png" alt="asset">
 
-10. Cek Menggunakan Nama Domain
+19. Cek Menggunakan Nama Domain
+    
     <img src="assets/practice/domain.test.png" alt="asset">
 
-11. Cek Menggunakan IP Address
+21. Cek Menggunakan IP Address
+    
     <img src="assets/practice/ip.test.png" alt="asset">
