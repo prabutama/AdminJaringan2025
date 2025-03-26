@@ -145,5 +145,5 @@ DNS Server: 10.252.108.109
 8. Restart Named Service
    <img src="assets/practice/restart.named.service.png" alt="asset">
 
-9. Cek Menggunakan IP Address
+9. Cek Menggunakan Domain
    <img src="assets/practice/ip.test.png" alt="asset">
