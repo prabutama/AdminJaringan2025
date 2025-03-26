@@ -145,11 +145,5 @@ DNS Server: 10.252.108.109
 8. Restart Named Service
    <img src="assets/practice/restart.named.service.png" alt="asset">
 
-9. Menambahkan Konfigurasi Resolv
-   <img src="assets/practice/resolv.conf.png" alt="asset">
-
-10. Cek Menggunakan Nama Domain
-    <img src="assets/practice/domain.test.png" alt="asset">
-
-11. Cek Menggunakan IP Address
-    <img src="assets/practice/ip.test.png" alt="asset">
+9. Cek Menggunakan IP Address
+   <img src="assets/practice/ip.test.png" alt="asset">
