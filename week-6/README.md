@@ -14,7 +14,7 @@
   <hr>
 </div>
 
-<h3 style="text-align: center;line-height: 1.5">Praktikum Minggu 7</h3>
+<h3 style="text-align: center;line-height: 1.5">Praktikum Minggu 6</h3>
 
 #### Persiapan Kebutuhan Praktikum
 
