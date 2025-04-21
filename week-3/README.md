@@ -65,58 +65,25 @@ Samba adalah perangkat lunak open-source yang memungkinkan berbagi file dan prin
 
 #### Instalasi package Samba
 
- <img src="assets/samba-install.png" alt="asset">
+![alt text](assets/samba-install.png)
 
 #### Percobaan fully access
 
 1. Konfigurasi pada samba
 
-   <img src="assets/samba-conf.png" alt="asset">
+![alt text](assets/samba-conf.png)
 
 2. Membuat sebuah file di direktori /home/share
 
-   <img src="assets/samba-fully-mkdir.png" alt="asset">
+![alt text](assets/samba-fully-mkdir.png)
 
 3. Percobaan akses dari Host
 
-   <img src="assets/samba-fully-host-access.png" alt="asset">
+![alt text](assets/samba-limited-host-access.png)
 
 4. Percobaan akses di komputer lain
 
-   <img src="assets/samba-fully-other-access.png" alt="asset">
-
-#### Percobaan Limited Access
-
-1. Konfigurasi pada samba
-
-   <img src="assets/samba-limited-conf.png" alt="asset">
-
-2. Membuat sebuah file untuk dibagikan di direktori /home/share01
-
-   <img src="assets/samba-limited-make-file.png" alt="asset">
-
-3. Menambahkan user baru
-
-  <img src="assets/samba-limited-add-user.png" alt="asset">
-
-4. Menambahkan user baru ke grup isagroup
-
-  <img src="assets/samba-limited-user-to-group.png" alt="asset">
-
-5. Menambahkan user valid baru ke samba
-
- <img src="assets/samba-limited-add-user-to-sambpsswd.png" alt="asset">
-
-6. Percobaan akses di host (Ubuntu)
-
- <img src="assets/samba-limited-host-access.png" alt="asset">
-
-7. Percobaan akses di komputer lain (Windows)
-
- <img src="assets/samba-limited-other-access.png" alt="asset">
-<img src="assets/samba-limited-other-access-notepad.png" alt="asset">
-
-Pada saat mengakses maka akan diminta untuk memasukkan kredensial yang telah dikonfigurasi sebelumnya yaitu username debian dan password debian
+![alt text](assets/samba-fully-other-access.png)
 
 #### Percobaan akses lewat CLI
 
