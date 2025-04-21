@@ -41,6 +41,8 @@ Tujuan pengecekan ini adalah memastikan perangkat telah memiliki jalur koneksi b
 
 ###### 3. Tambahkan roting dengan network tujuan masing-masing kelompok
 
+![alt text](assets/routing.png)
+
 Langkah ini dilakukan agar router tahu ke mana harus mengirimkan paket untuk jaringan kelompok lain.
 
 ###### 4. Periksa konfigurasi routing, nonaktifkan jalur yang tidak terpakai agar menghindari konflik
@@ -53,4 +55,4 @@ Hal ini penting untuk menjaga stabilitas jaringan dan mencegah terjadinya pengir
 
 Jika hasilnya reply from..., berarti konfigurasi routing berhasil dan router bisa berkomunikasi dengan jaringan internal kelompok lain.
 
-\*Note: Mohon maaf lupa screenshot!
+\*Note: Mohon maaf ada beberapa step yang saya lupa screenshot
