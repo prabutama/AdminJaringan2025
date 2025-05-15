@@ -84,3 +84,38 @@ Jika ada bagian tertentu yang ingin kamu pelajari lebih dalam (misal: detail pro
 
 ### Konfigurasi email server
 
+#### 1. Instalasi Paket Postfix dan sasl2-bin
+
+![alt text](assets/postfix-install.png)
+
+#### 2. Konfigurasi Dasar Potfix untuk Mail Transfer Agent (MTA)
+
+2.1. Salin file konfigurasi dengan menggunakan perintah ini `cp /usr/share/postfix/main.cf.dist /etc/postfix/main.cf`
+
+2.2. Edit file `/etc/postfix/main.cf` dengan menggunakan perintah `nano /etc/postfix/main`
+
+2.3. Konfigurasi Hostname & Domain di Postfix
+
+![alt text](assets/postfix-domain-conf.png)
+
+2.4. Menambahkan Jaringan Lokal
+
+![alt text](assets/postfix-local-network.png)
+
+2.5. Hapus komentar pada SMPTD Banner
+
+![alt text](assets/postfix-smtpd-banner.png)
+
+2.6. Tambahkan konfigurasi path untuk mail 
+
+![alt text](assets/postfix-path.png)
+
+2.7. Konfigurasi autentikasi postfix
+
+![alt text](assets/postfix-auth.png)
+
+2.9. Terapkan perubahan dengan perintah  `newaliases`
+
+2.8. Restart layana paket postfix `systemctl restart postfix`
+
+
