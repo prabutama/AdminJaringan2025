@@ -116,6 +116,6 @@ Jika ada bagian tertentu yang ingin kamu pelajari lebih dalam (misal: detail pro
 
 2.9. Terapkan perubahan dengan perintah  `newaliases`
 
-2.8. Restart layana paket postfix `systemctl restart postfix`
+2.8. Restart layanan paket postfix `systemctl restart postfix`
 
 
