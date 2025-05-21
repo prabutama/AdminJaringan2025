@@ -80,8 +80,6 @@ Email bekerja dengan menggunakan model client-server. Berikut adalah proses dasa
 
 Email adalah layanan komunikasi digital yang sangat penting dan telah merevolusi cara manusia berkomunikasi, baik secara personal maupun profesional. Dengan memahami cara kerja dan komponennya, kita dapat memanfaatkan email secara lebih efektif dan aman.
 
-Jika ada bagian tertentu yang ingin kamu pelajari lebih dalam (misal: detail protokol, keamanan email, atau aplikasi email populer), silakan tanyakan!
-
 ### Konfigurasi email server
 
 #### 1. Instalasi Paket Postfix dan sasl2-bin
@@ -117,5 +115,5 @@ Jika ada bagian tertentu yang ingin kamu pelajari lebih dalam (misal: detail pro
 2.9. Terapkan perubahan dengan perintah  `newaliases`
 
 2.8. Restart layanan paket postfix `systemctl restart postfix`
-
+  
 
