@@ -94,8 +94,6 @@ Email adalah layanan komunikasi digital yang sangat penting dan telah merevolusi
 
 2.3. Konfigurasi Hostname & Domain di Postfix
 
-![alt text](assets/postfix-domain-conf.png)
-
 2.4. Menambahkan Jaringan Lokal
 
 ![alt text](assets/postfix-local-network.png)
@@ -116,4 +114,24 @@ Email adalah layanan komunikasi digital yang sangat penting dan telah merevolusi
 
 2.8. Restart layanan paket postfix `systemctl restart postfix`
   
+#### 3. Akses email dengan Thunderbird
 
+3.1 Masuk ke Thunderbird, inputkan nama, email, dan password dari mail yang telah dibuat
+
+![alt text](assets/tb-1.png)
+
+3.2 Konfigurasi incoming dan upcoming server seperti berikut
+
+![alt text](assets/tb-2.png)
+
+3.3 Jika berhasil, mail dari langkah 3 akan muncul
+
+[text](README.md) ![text](assets/tb-3.png)
+
+3.4 Tes untuk menulis dan membaca mail
+
+![alt text](assets/tb-4.png)
+
+![alt text](assets/tb-5.png)
+
+Dengan mengikuti langkah-langkah percobaan dari server-world dan menampilkan output seperti diatas, maka konfigurasi mail server telah berhasil.
