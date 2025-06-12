@@ -44,55 +44,11 @@ PROGRAM STUDI TEKNIK INFORMATIKA
 
 ## **Ringkasan Projek**
 
-P2-OC-API adalah sistem REST API berbasis Node.js yang menyediakan akses terstruktur dan analitik mendalam terhadap database ClassicModels. Sistem ini terdiri dari 68 endpoint API yang terbagi dalam 7 kategori utama, dengan arsitektur 3-tier (presentation, application, data layer) yang jelas.
+# Ringkasan Projek P2-OC-API
 
-**Fitur Utama:**
-- Backend: Node.js v18+ & Express.js v4.18.2
-- Database: MySQL v8.0.33 (8 tabel, 3000+ records)
-- Frontend: Web dashboard responsif (vanilla JS)
-- Deployment: Docker Compose multi-container
-- Performa: <500ms response time untuk sebagian besar endpoint
-- Dokumentasi: API & user guide lengkap
+P2-OC-API adalah REST API analitik berbasis Node.js, Express, dan MySQL. Sistem ini menyediakan 68 endpoint untuk analisis data bisnis ClassicModels, dashboard web responsif, dan deployment mudah dengan Docker.
 
-**Tujuan Projek:**
-- Mengimplementasikan REST API yang scalable dan maintainable
-- Menyediakan interface analitik bisnis melalui dashboard interaktif
-- Menerapkan best practices API modern dan dokumentasi
-- Containerization (Docker) untuk deployment konsisten
-- Query database kompleks untuk business intelligence
-- Monitoring & health check untuk reliability
-
-**Ruang Lingkup:**
-- 68 endpoint REST API untuk analisis bisnis
-- Web dashboard real-time
-- 7 controller modules untuk entitas bisnis
-- Advanced analytics (trend, BI)
-- Containerization penuh (Docker)
-- Database management (MySQL, pooling)
-- Dokumentasi lengkap
-
-**Manfaat Sistem:**
-- Efisiensi operasional: akses data cepat & terstruktur
-- Analisis bisnis: insight performa penjualan & customer
-- Skalabilitas: arsitektur siap berkembang
-- Maintainability: kode terorganisir & mudah dipelihara
-- Portabilitas: deployment konsisten lintas environment
-
-**Teknologi Kunci:**
-- Node.js, Express.js, MySQL, Docker, EJS, CSS3, Vanilla JS, Font Awesome, Helmet, CORS, Morgan
-
-**Arsitektur:**
-- 3-tier (presentation, application, data)
-- MVC, repository, singleton, factory, middleware, RESTful
-
-**Keamanan & Performa:**
-- Helmet.js, input validation, SQL injection prevention
-- Connection pooling, async/await, modular code, error handling
-
-**Testing & Deployment:**
-- API testing (Postman), monitoring, health check
-- Docker Compose, manual & production deployment
-
+*Untuk detail lebih lanjut, cek dokumentasi di repository.*
 
 ## **Analisis Sistem dan Arsitektur**
 
@@ -920,5 +876,3 @@ RATE_LIMIT_MAX=100
   }
 }
 ```
-
----
